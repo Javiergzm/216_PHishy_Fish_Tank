@@ -1,4 +1,4 @@
 # start_monitoring.py
 from fishtank import FishTankCLI
-FishTankCLI()
-app.main()
+app = FishTankCLI()
+app.main()              #run the main function

@@ -1,9 +1,11 @@
 def monitor():
   try:
     
-    val1 = 17
-    val2 = 12
 
+    val1 = 12
+    val2 = 17
+
+    #alkilines = [17, 12]
     alkilines = list(range(val1, val2+1))
 
     current = get_alkalinity()
